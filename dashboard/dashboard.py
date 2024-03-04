@@ -107,6 +107,8 @@ max_date = df["dteday"].max()
 # ----- SIDEBAR -----
 
 with st.sidebar:
+    # add logo
+    st.image("https://mangadex.org/img/brand/mangadex-logo.svg")
     st.sidebar.header("Filter:")
 
     # mengambil start_date & end_date dari date_input
